@@ -4,7 +4,7 @@ node('master')
 {
 	stage('Continuous Download_master') 
 	{
-   		git 'https://github.com/varun180904/varunintern1.git'
+   		git 'https://github.com/varun180904/intern1.git'
 	}
    	 stage('Continuous Build_master') 
 	{
